@@ -1,4 +1,6 @@
 .nav-style {
+    position: fixed;
+    top: 0px;
     display: flex;
     width: 100%;
     padding: 20px 79px;
@@ -6,6 +8,7 @@
     gap: 8px;
     background: var(--primary, #32325D);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 2;
 }
 
 .img-nav {
@@ -61,6 +64,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     grid-gap: 63px 58px;
+    z-index: 2
 }
 
 .post-card {
@@ -147,7 +151,6 @@
 }
 
 .body-details-style {
-    flex-direction: column;
     font-size: 16px;
     place-items: center;
     margin-inline: 0;
@@ -161,11 +164,19 @@
     margin:0;
 }
 
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background: var(--white, #FFF);
+    margin-block-start: 69px;
+}
+
 .post-details-card {
     display:flex;
     flex-direction: column;
+    align-self: center;
     margin-inline: 400px;
-    margin-block: 20px;
+    margin-block-start: 23px;
     margin-block-end: 63px;
     width: 771px;
     min-height: 519px;
@@ -213,6 +224,7 @@
 .post-comments-container{
     display:flex;
     flex-direction: column;
+    align-self: center;
     margin-inline: 400px;
     margin-block: 20px;
     margin-block-end: 63px;
@@ -266,5 +278,37 @@
     margin-top: 36px;
     margin-bottom: 20.53px;
     flex-shrink: 0;
+}
+
+.back-button-wrapper {
+    position:fixed;
+    margin-inline-start: 34px; 
+    margin-block-start: 23px;
+}
+
+
+.elipse-button {
+    position:absolute;
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    /*background-color: #32325D;
+    fill: var(--primary, #32325D);*/
+    stroke-width: 0.3px;
+    stroke: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+   
+}
+
+.arrow-icon {
+    position:relative;
+    width: 49px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    z-index: 5;
+    margin-block-start: 0.5rem;
+    margin-inline-start: 0.76rem;
+
 }
 
