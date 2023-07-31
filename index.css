@@ -32,11 +32,11 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 55.556% */
+    line-height: 20px;
     letter-spacing: 3.6px;
     text-decoration-line: underline;
     text-decoration-color: #3A4F9A;
-    text-underline-offset: 1.5rem; 
+    text-underline-offset: 1.5rem;
 
 }
 
@@ -53,10 +53,10 @@
 .body-style {
     width: 100%;
     height: 100%;
-     /*width: 1512px;
+    /*width: 1512px;
     height: 982px;*/
     background: var(--white, #FFF);
-    margin:0;
+    margin: 0;
 }
 
 .post-grid {
@@ -77,7 +77,7 @@
     width: 409px;
     height: 455px;
     position: relative;
-    
+
 }
 
 .post-box {
@@ -89,7 +89,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.post-content{
+.post-content {
     width: 359px;
     height: 109px;
     left: 29px;
@@ -98,17 +98,26 @@
     color: #575757;
     font-size: 13px;
     font-family: Inter;
-    font-weight: 300; 
+    font-weight: 300;
     line-height: 20px;
     letter-spacing: 1.30px;
     word-wrap: break-word
 }
 
-.post-img{
+.post-img {
     width: 409px;
     height: 273px;
     flex-shrink: 0;
 }
+.separator {
+    width: 652.007px;
+    height: 1px;
+    background-color: #747474;
+    flex-shrink: 0;
+    stroke-width: 4px;
+    stroke: #575757;
+}
+
 
 .post-card-title {
     left: 1.75rem;
@@ -137,22 +146,22 @@
 
 }
 
-::-webkit-scrollbar{
-    position: absolute; 
-    background: rgba(57.77, 78.96, 154.06, 0.30); 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+::-webkit-scrollbar {
+    position: absolute;
+    background: rgba(57.77, 78.96, 154.06, 0.30);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
 
-::-webkit-scrollbar-thumb{
-    background: rgba(57.77, 78.96, 154.06, 0.30); 
+::-webkit-scrollbar-thumb {
+    background: rgba(57.77, 78.96, 154.06, 0.30);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
 
-::-webkit-scrollbar-corner{
-    background:  #32325D;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+::-webkit-scrollbar-corner {
+    background: #32325D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .body-details-style {
@@ -163,13 +172,13 @@
     padding-block: 0;
     width: 100%;
     height: 100%;
-     /*width: 1512px;
+    /*width: 1512px;
     height: 982px;*/
     background: var(--white, #FFF);
-    margin:0;
+    margin: 0;
 }
 
-.main-container{
+.main-container {
     display: flex;
     flex-direction: column;
     background: var(--white, #FFF);
@@ -177,7 +186,7 @@
 }
 
 .post-details-card {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-self: center;
     margin-inline: 400px;
@@ -210,24 +219,24 @@
     font-size: 13px;
     font-style: normal;
     font-weight: 300;
-    line-height: 20px; /* 153.846% */
+    line-height: 20px;
     letter-spacing: 1.3px;
     word-wrap: break-word;
 }
 
 .post-card-details-title {
-    margin-inline-start:54.67px;
+    margin-inline-start: 54.67px;
     color: var(--title, #3A4F9A);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 100% */
+    line-height: 20px;
     letter-spacing: 2px;
 }
 
-.post-comments-container{
-    display:flex;
+.post-comments-container {
+    display: flex;
     flex-direction: column;
     align-self: center;
     margin-inline: 400px;
@@ -241,7 +250,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.post-comments-card{  
+.post-comments-card {
     margin-inline-start: 54.67px;
     margin-inline-end: 10px;
     margin-block-end: 56px;
@@ -257,9 +266,9 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
     letter-spacing: 1.6px;
-    
+
 }
 
 .post-comments-p {
@@ -271,7 +280,7 @@
     font-weight: 200;
     line-height: 20px;
     letter-spacing: 1.6px;
-    
+
 
 }
 
@@ -286,14 +295,14 @@
 }
 
 .back-button-wrapper {
-    position:fixed;
-    margin-inline-start: 34px; 
+    position: fixed;
+    margin-inline-start: 34px;
     margin-block-start: 23px;
 }
 
 
 .elipse-button {
-    position:absolute;
+    position: absolute;
     width: 75px;
     height: 75px;
     flex-shrink: 0;
@@ -302,11 +311,11 @@
     stroke-width: 0.3px;
     stroke: rgba(255, 255, 255, 0.6);
     border-radius: 50%;
-   
+
 }
 
 .arrow-icon {
-    position:relative;
+    position: relative;
     width: 49px;
     height: 49px;
     flex-shrink: 0;
@@ -317,3 +326,249 @@
 
 }
 
+@media screen and (max-width: 1000.98px) {
+    .post-grid {
+        display: grid;
+        width: 100%;
+        margin-block-end: 20px;
+        margin-block-start: 15rem;
+        margin-inline-start: 1rem;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 63px 58px;
+        z-index: 2
+    }
+
+    .post-card {
+        width: 10rem;
+        height: 25rem;
+        position: relative;
+
+    }
+
+    .post-box {
+        max-width: 13rem;
+        height: 25rem;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: var(--white, #FFF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .post-content {
+        max-width: 12rem;
+        height: 10rem;
+        left: 1rem;
+        top: 13rem;
+        position: absolute;
+        color: #575757;
+        font-size: 13px;
+        font-family: Inter;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 1.30px;
+        word-wrap: break-word
+    }
+
+    .post-img {
+        width: 13rem;
+        height: 11rem;
+        flex-shrink: 0;
+    }
+
+    .post-card-title {
+        left: 1rem;
+        top: 10.5rem;
+        position: absolute;
+        color: #3A4F9A;
+        font-size: 1rem;
+        font-family: Inter;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 2px;
+        word-wrap: break-word
+    }
+
+    .expand-style {
+        left: 8.05rem;
+        top: 23rem;
+        position: absolute;
+        color: #3A4F9A;
+        font-size: 13px;
+        font-family: Inter;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 1.30px;
+        word-wrap: break-word;
+
+    }
+
+    .home-title {
+        width: 221px;
+        height: 46px;
+        flex-shrink: 0;
+        left: 1rem;
+        top: 167px;
+        position: absolute;
+    }
+
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        background: var(--white, #FFF);
+        margin-block-start: 5rem;
+    }
+
+    .post-details-card {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-inline: 10rem;
+        margin-block-start: 1rem;
+        margin-block-end: 3rem;
+        width: 15rem;
+        min-height: 10rem;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: var(--white, #ffffff);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .post-details-img {
+        width: 15rem;
+        height: 10rem;
+        flex-shrink: 0;
+    }
+
+    .post-details-content {
+        margin-inline-start: 2rem;
+        margin-block-end: 1.5rem;
+        width: 12rem;
+        min-height: 8rem;
+        margin-bottom: 3rem;
+        flex-shrink: 0;
+        color: var(--gray, #575757);
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 1.3px;
+        word-wrap: break-word;
+    }
+
+    .post-card-details-title {
+        margin-inline-start: 2rem;
+        color: var(--title, #3A4F9A);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+
+    .post-comments-container {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-inline: 20rem;
+        margin-block: 2rem;
+        margin-block-end: 3rem;
+        width: 15rem;
+        min-height: 0px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: var(--white, #ffffff);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .post-comments-card {
+        margin-inline-start: 2rem;
+        margin-inline-end: 1rem;
+        margin-block-end: 3rem;
+        width: 13rem;
+        min-height: 0px;
+        margin-top: 1rem;
+        margin-bottom: 20.53px;
+        flex-shrink: 0;
+    }
+
+    .post-comments-span {
+        color: var(--title, #3A4F9A);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 1.6px;
+
+    }
+
+    .post-comments-p {
+        margin-right: 1rem;
+        color: var(--gray, #575757);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 1.6px;
+
+
+    }
+
+    #post-comments-element {
+        margin-block-start: 30px;
+        margin-block-end: 56px;
+        width: 14rem;
+        min-height: 0px;
+        margin-top: 36px;
+        margin-bottom: 20.53px;
+        flex-shrink: 0;
+    }
+
+    .back-button-wrapper {
+        position: fixed;
+        margin-inline-start: 1rem;
+        margin-block-start: 1.2rem;
+    }
+
+
+    .elipse-button {
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        flex-shrink: 0;
+        /*background-color: #32325D;
+        fill: var(--primary, #32325D);*/
+        stroke-width: 0.3px;
+        stroke: rgba(255, 255, 255, 0.6);
+        border-radius: 50%;
+
+    }
+
+    .arrow-icon {
+        position: relative;
+        width: 1rem;
+        height: 1rem;
+        flex-shrink: 0;
+        border-radius: 50%;
+        z-index: 5;
+        margin-block-start: 0.3rem;
+        margin-inline-start: 0.48rem;
+
+    }
+    .separator{
+    width: 12rem;
+    height: 1px;
+    background-color: #747474;
+    flex-shrink: 0;
+    stroke-width: 4px;
+    stroke: #575757;
+    }
+   
+}

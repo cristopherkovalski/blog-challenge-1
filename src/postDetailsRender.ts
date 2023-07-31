@@ -61,16 +61,8 @@ class CommentsRender {
             paragraph.appendChild(span);
             paragraph.appendChild(document.createTextNode(comment.body));
             article.appendChild(paragraph);
-            const svgUnderline = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-            svgUnderline.setAttribute("width", "654px");
-            svgUnderline.setAttribute("height", "2px");
-            svgUnderline.setAttribute("viewBox", "0 0 654 2");
-            svgUnderline.setAttribute("fill", "none");
-            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-            path.setAttribute("d", "M0.996582 1H653.003");
-            path.setAttribute("stroke", "#575757");
-            path.setAttribute("stroke-width", "0.5");
-            svgUnderline.appendChild(path);
+            const svgUnderline = document.createElement("img");
+            svgUnderline.classList.add("separator");
             article.appendChild(svgUnderline);
             commentsContainer.appendChild(article);
         });
