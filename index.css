@@ -327,12 +327,12 @@
 }
 
 @media screen and (max-width: 1000.98px) {
+
     .post-grid {
         display: grid;
         width: 100%;
         margin-block-end: 20px;
         margin-block-start: 15rem;
-        margin-inline-start: 1rem;
         justify-content: center;
         align-items: center;
         grid-template-columns: repeat(1, 1fr);
@@ -409,12 +409,9 @@
         width: 221px;
         height: 46px;
         flex-shrink: 0;
-        left: 1rem;
         top: 167px;
         position: absolute;
     }
-
-
 
     .main-container {
         display: flex;
